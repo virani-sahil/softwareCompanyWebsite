@@ -16,6 +16,8 @@ function Home() {
           <img src="/images/homemain.png" alt="" />
         </div>
       </div>
+
+      {/* half circle image */}
       <img className="absolute bottom-0 left-2/6 w-full max-w-[40px] md:max-w-[72px]" src="/images/Ellipsecircle.png" alt="" />
     </div>
   )

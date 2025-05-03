@@ -87,29 +87,5 @@ function Header() {
     </nav>
   );
 }
-//   return (
-//     <div className="flex justify-between items-center px-10 py-4 w-screen shadow-lg min-h-[80px]">
-//       <div className="flex items-center gap-1">
-//         <img src="/images/logo.png" alt="company logo" />
-//         <img src="/images/Ikdevelopers.png" alt="company name" />
-//       </div>
-//       <div>
-//         <ul className="flex gap-12">
-//           <li>About us</li>
-//           <li>Services</li>
-//           <li>Case Studies</li>
-//           <li>Blog</li>
-//           <li>How it Works</li>
-//           <li>Hire</li>
-//         </ul>
-//       </div>
-//       <div>
-//         <button className="w-full max-w-[124px] h-[42px] bg-gradient-to-r from-[#57007B] to-[#6675F7] text-white text-[14px] px-7 rounded-md">
-//           Contact us
-//         </button>
-//       </div>
-//     </div>
-//   );
-// }
 
 export default Header;

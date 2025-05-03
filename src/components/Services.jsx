@@ -4,20 +4,17 @@ import { services } from "../util/data";
 const Services = () => {
     
   return (
-        <div className="w-full bg-[#FBF9FF] py-12 px-6">
+        <div className="w-full bg-[#F7F7FA] py-12 px-6">
               <h2 className="text-center text-3xl font-bold text-[#1E1E1E] mb-10">
                 Services we offer
               </h2>
         
               <div className="grid justify-center md:flex md:justify-start xl:justify-center gap-8 overflow-x-auto pb-10 custom-scroll-hide">
+                
+                {/* services block */}
                 {services.map((item, index) => (
                   <div
                     key={index}
-                    // className={`w-full xl:min-w-[333px] max-w-[333px] min-h-[287px] bg-white rounded-xl p-6 shadow-md transition-all duration-300 relative hover:${
-                    //   item.active
-                    //     ? "border border-[#C82282] text-[#C82282] absolute top-10"
-                    //     : "border border-transparent"
-                    // }`}
                     className={`min-w-[250px] md:min-w-[333px] max-w-[333px] min-h-[287px] bg-white rounded-xl p-6 shadow-lg transition-all duration-300 relative border ${
                       item.active
                         ? "border-[#C82282] text-[#C82282] absolute md:top-[30px]"
@@ -25,7 +22,7 @@ const Services = () => {
                     }`}
                   >
                     <div className="w-12 h-12 rounded-full border border-[#C82282] flex items-center justify-center text-2xl mb-4">
-                      <img className="w-full max-w-[58px]" src={item.icon} alt="" />
+                      <img className="w-full max-w-[58px] p-2" src={item.icon} alt="" />
                     </div>
                     <h3
                       className={`text-xl font-semibold text-[#1E1E1E] mb-2 text ${
@@ -53,7 +50,7 @@ const Services = () => {
                 ))}
               </div>
         
-              {/* Page numbers */}
+              {/* Page progressbar */}
               <div className="flex justify-center md:justify-end items-center gap-1 mt-4 px-4 text-sm text-gray-400">
                 <span className="text-[#AOAECO] font-semibold">01</span>
                 <div className="bg-gray-300 h-1" style={{ width: "10%" }}>
