@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Logolist from "./components/Logolist";
 import Resources from "./components/Resources";
-import Services from "./components/services";
+import Services from "./components/Services";
 import Techstack from "./components/Techstack";
 import Workwithus from "./components/Workwithus";
 
